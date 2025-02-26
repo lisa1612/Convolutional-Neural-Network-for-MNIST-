@@ -37,7 +37,8 @@ The CNN model consists of the following layers:
 5. **Flatten** - Converts feature maps into a 1D vector.
 6. **Dense (Fully Connected Layer)** - Final classification using Softmax activation.
 
-## 📊 Results <img src="result.png" alt="result" width="200">
+## 📊 Results 
+<img src="result.png" alt="result" width="100" align="right">
 - Achieves **98%+ accuracy** on the MNIST test set.
 - Loss and accuracy plots provided for training analysis.
 - Confusion matrix for detailed performance insights.
