@@ -29,10 +29,10 @@ pip install tensorflow keras numpy matplotlib scikit-learn
 The MNIST dataset is automatically downloaded when using TensorFlow/Keras. No manual download is required.
 
 ## Architecture
-The CNN model consists of the following layers:
+The CNN model consists of the following layers: 
 1. **Conv2D** - Extracts features using a 3x3 filter.
-2. **MaxPooling2D** - Reduces spatial dimensions (2x2 pool size).
-3. **Conv2D** - Another convolutional layer to learn deeper features. <img src="result.png" alt="result" width="300" align="right">
+2. **MaxPooling2D** - Reduces spatial dimensions (2x2 pool size). <img src="result.png" alt="result" width="200" align="right">
+3. **Conv2D** - Another convolutional layer to learn deeper features. 
 4. **MaxPooling2D** - Further spatial reduction.
 5. **Flatten** - Converts feature maps into a 1D vector.
 6. **Dense (Fully Connected Layer)** - Final classification using Softmax activation.
