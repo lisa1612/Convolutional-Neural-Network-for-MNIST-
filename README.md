@@ -32,12 +32,12 @@ The MNIST dataset is automatically downloaded when using TensorFlow/Keras. No ma
 The CNN model consists of the following layers:
 1. **Conv2D** - Extracts features using a 3x3 filter.
 2. **MaxPooling2D** - Reduces spatial dimensions (2x2 pool size).
-3. **Conv2D** - Another convolutional layer to learn deeper features.
+3. **Conv2D** - Another convolutional layer to learn deeper features. <img src="result.png" alt="result" width="300" align="right">
 4. **MaxPooling2D** - Further spatial reduction.
 5. **Flatten** - Converts feature maps into a 1D vector.
 6. **Dense (Fully Connected Layer)** - Final classification using Softmax activation.
 
-## 📊 Results <img src="result.png" alt="result" width="100" align="right">
+## 📊 Results 
 - Achieves **98%+ accuracy** on the MNIST test set.
 - Loss and accuracy plots provided for training analysis.
 - Confusion matrix for detailed performance insights.
