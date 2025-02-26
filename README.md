@@ -1,4 +1,4 @@
-# Convolutional Neural Network for MNIST Classification
+# Handwritten Digit Prediction using CNN 
 
 ## 📌 Overview
 This project implements a **Convolutional Neural Network (CNN)** to classify handwritten digits from the **MNIST dataset**. The MNIST dataset consists of **60,000 training images** and **10,000 test images**, each representing digits from 0 to 9 in 28x28 grayscale format. The CNN is designed to achieve high accuracy in digit classification through deep learning techniques.
